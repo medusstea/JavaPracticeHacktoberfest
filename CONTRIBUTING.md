@@ -1,39 +1,29 @@
-# GIT
-## Convertir tu proyecto en un proyecto controlado por **git**
-```git init```
+1- Forkear el proyeco de hacktoberfest
 
-## Prepara los cambios para ser añadidos al repositorio
-```git add xxx```
-*Ejemplo:* 
-```git add index.html```
+2- Clonar el repo clonado en tu ordenador
 
-## Prepara los cambios para ser añadidos al repositorio (todo)
-```git add .```
+```bash
+git clone xxx
+```
 
-## Guarda los cambios en el repositorio
-```git commit -m "Creo la página web inicial"```
+3- Añadir al nuevo proyecto
+```bash
+git branch
+git checkout -b xxx
+```
 
-## Guarda tu usuario
+4- Guardar los cambios en el repo
 
-```git config --global user.email "you@example.com"```
-```git config --global user.name "Your Name"```
+```bash
+git add .
+git commit -a "texto"
+```
+5- Subir los cambios al repositorio remoto
 
-## Conecta el repositorio local con el remoto
+```bash
+git push origin master
+```
 
-```git remote add origin https://github.com/medusstea/WebPrueba.git```
+6- En vuestro github pulsando el boton de <contribe>
 
-## Sube los cambios que tienes en el local a el remoto
-
-```git push -u origin main```
-
-## Borrar la carpeta .git
-
-```rmdir /s .git```
-
-## Muestra las ramas del repositorio
-
-```git branch``` 
-
-## Traer los pulls al equipo
-
-```git pull```
+7- El profesor acepta o rechaza los cambios
