@@ -16,7 +16,7 @@ git checkout -b xxx
 
 ```bash
 git add .
-git commit -a "texto"
+git commit -m "texto"
 ```
 5- Subir los cambios al repositorio remoto
 
